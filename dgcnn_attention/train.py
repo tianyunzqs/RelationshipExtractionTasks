@@ -80,8 +80,8 @@ def load_data(path):
 
 
 train_data, char2id, id2char, predicate2id, id2predicate, predicates = load_data(
-    os.path.join(project_path, 'data2/train_triples.json'))
-dev_data, _, _, _, _, _ = load_data(os.path.join(project_path, 'data2/dev_triples.json'))
+    os.path.join(project_path, 'data/train_triples.json'))
+dev_data, _, _, _, _, _ = load_data(os.path.join(project_path, 'data/dev_triples.json'))
 num_classes = len(id2predicate)
 
 
